@@ -1,0 +1,60 @@
+@import './assets/util/z-index.scss';
+
+.layout {
+  display: grid;
+  grid-template-columns: 50vw 50vw;
+  grid-template-rows: 55vh 1fr;
+  grid-template-areas: 'personal professional' 'intro intro';
+}
+
+.profile {
+  align-self: end;
+
+  img {
+    height: 300px;
+  }
+
+  &.personal {
+    grid-area: personal;
+    justify-self: end;
+  }
+
+  &.professional {
+    grid-area: professional;
+    justify-self: start;
+  }
+
+  .profilePhoto {
+    z-index: z("page");
+    opacity: 0.8;
+    transition: opacity 0.35s ease;
+
+    &:hover {
+      opacity: 1;
+      cursor: pointer;
+    }
+  }
+
+  .personalBg,
+  .personalUnderlay {
+    position: absolute;
+    bottom: 4px;
+    right: 0;
+  }
+
+  .personalBg,
+  .professionalBg {
+    z-index: z("background");
+  }
+  
+  .personalUnderlay {
+    z-index: z("underlay");
+    opacity: 1;
+  }
+}
+
+.intro {
+  grid-area: intro;
+  justify-self: center;
+  padding-bottom: 20px;
+}

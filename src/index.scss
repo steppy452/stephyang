@@ -1,0 +1,61 @@
+@import './assets/variables.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $bodyFont;
+  color: $bodyColor;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  transition: color 0.35s ease;
+  color: $bodyColor;
+  &:hover {
+    color: $highlightColor;
+  }
+}
+
+p {
+  line-height: 1.5;
+}
+
+h3 {
+  font-weight: 400;
+}
+
+.emphasis {
+  font-style: italic;
+}
+
+.strong {
+  font-weight: 700;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.sub-layout {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-wrapper {
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.sub-layout-content {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.sub-layout-intro {
+  align-self: flex-end;
+}

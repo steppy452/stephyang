@@ -1,0 +1,27 @@
+.backArrowText {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.25s ease 0.1s;
+  font-size: 1em;
+}
+
+.backArrow {
+  position: absolute;
+  margin-left: -40px;
+  display: block;
+  font-size: 1.2em;
+  line-height: 36px;
+  transition: color 0.35s ease, transform 0.1s ease;
+  color: rgba($bodyColor, 0.15);
+
+  &:hover {
+    color: $highlightColor;
+    cursor: pointer;
+    transform: translateX(-53px);
+
+    .backArrowText {
+      display: inline;
+      opacity: 1;
+    }
+  }
+}
