@@ -1,5 +1,4 @@
 const Resume = {
-  profile: 'I\'m a designer-developer who strives to build beautiful, intuitive, quality software that users <span className="emphasis">want</span> to use everyday currently based in Austin, TX.',
   work: [
     {
       company: 'JASK',
@@ -51,8 +50,8 @@ const Resume = {
       ]
     }
   ],
-  skills: 'Sass/CSS3, HTML5, JavaScript (Angular, jQuery), Charting Libraries, Responsive Design, Git, Command Line, Sketch, Photoshop',
-  dabbles: 'ReactJS, TypeScript, Testing Frameworks (Jasmine, Protractor), Illustrator',
+  skills: 'ReactJS, TypeScript, Sass/CSS3, HTML5, Angular, Charting Libraries, Responsive Design, Git, Command Line, Sketch, Photoshop',
+  dabbles: 'Testing Frameworks (Jest, Jasmine, Protractor), Illustrator',
   education: {
     school: 'Georgia Institute of Technology',
     location: 'Atlanta, GA',

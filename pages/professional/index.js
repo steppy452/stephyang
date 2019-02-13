@@ -20,13 +20,13 @@ export default () => {
           <BackHome></BackHome>
           <h1>Resume</h1>
           <p className="resume-profile">
-            I'm a designer-developer who strives to build beautiful, intuitive, quality software that users <span className="emphasis">want</span> to use everyday currently working at Square Root, a small company based in Austin, TX.
+            I'm a designer-developer who strives to build beautiful, intuitive, quality software that users <span className="emphasis">want</span> to use everyday currently based in Austin, TX.
           </p>
 
           <h2>Work Experience</h2>
           {
-            resume.work.map( item => {
-              return <WorkExperience work={ item }></WorkExperience>
+            resume.work.map( (item, idx) => {
+              return <WorkExperience key={idx} work={ item } />
             })
           }
 

@@ -25,8 +25,8 @@ export default () => {
 
           <div className="photo-gallery">
             {
-              gallery.map( item => {
-                return <GalleryItem item={ item }></GalleryItem>
+              gallery.map( (item, idx) => {
+                return <GalleryItem key={idx} item={ item }></GalleryItem>
               })
             }
           </div>

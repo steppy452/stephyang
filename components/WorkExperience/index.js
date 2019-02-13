@@ -10,8 +10,8 @@ export default ({ work }) => {
 
       <ul>
         {
-          work.responsibilities.map( responsibility => {
-            return <li>{ responsibility }</li>
+          work.responsibilities.map( (responsibility, idx) => {
+            return <li key={idx}>{ responsibility }</li>
           })
         }
       </ul>
