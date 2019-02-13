@@ -50,8 +50,8 @@ const Resume = {
       ]
     }
   ],
-  skills: 'ReactJS, TypeScript, Sass/CSS3, HTML5, Angular, Charting Libraries, Responsive Design, Git, Command Line, Sketch, Photoshop',
-  dabbles: 'Testing Frameworks (Jest, Jasmine, Protractor), Illustrator',
+  skills: 'ReactJS, TypeScript, Sass/CSS3, HTML5, Angular, Data Visualization, D3, Responsive Design, Git, Command Line, Sketch',
+  dabbles: 'Testing Frameworks (Jest, Jasmine, Protractor), Photoshop, Illustrator',
   education: {
     school: 'Georgia Institute of Technology',
     location: 'Atlanta, GA',
