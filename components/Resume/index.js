@@ -38,16 +38,6 @@ const Resume = {
         'Assisted clients in integrating the product by debugging client code, customizing features and styles',
         'Developed code review guidelines to ensure code quality; organized code review shifts and trained new code reviewers'
       ]
-    },
-    {
-      company: 'Bottlecap Development',
-      location: 'Atlanta, GA',
-      position: 'Freelance Developer',
-      time: 'August 2007 - November 2009',
-      responsibilities: [
-        'Translated Photoshop designs into HTML and CSS markup',
-        'Built client sites using PHP and JavaScript'
-      ]
     }
   ],
   skills: 'ReactJS, TypeScript, Sass/CSS3, HTML5, Angular, Data Visualization, D3, Responsive Design, Git, Command Line, Sketch',
