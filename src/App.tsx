@@ -9,6 +9,7 @@ import classNames from 'classnames';
 import css from './App.module.scss';
 // do this better
 import './assets/animations/bounce.scss';
+import './assets/animations/fade.scss';
 
 class App extends Component {
   render() {
