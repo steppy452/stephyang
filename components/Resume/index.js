@@ -1,5 +1,5 @@
 const Resume = {
-  profile: 'I\'m a designer-developer who strives to build beautiful, intuitive, quality software that users <span className="emphasis">want</span> to use everyday currently working at Square Root, a small company based in Austin, TX.',
+  profile: 'I\'m a designer-developer who strives to build beautiful, intuitive, quality software that users <span className="emphasis">want</span> to use everyday currently based in Austin, TX.',
   work: [
     {
       company: 'JASK',

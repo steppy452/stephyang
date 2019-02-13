@@ -14,7 +14,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "deploy": "next build && next export && aws s3 sync ./out s3://www.stephyang.com --profile personal",
+    "deploy": "scripts/deploy.sh",
     "start": "next start"
   },
   "author": "",
