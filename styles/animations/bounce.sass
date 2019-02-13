@@ -1,0 +1,145 @@
+.bounce-left
+  +browser-prefixer(animation, bounce-left 1.5s both)
+  transition: opacity 0.35s ease
+
+@-webkit-keyframes bounce-left
+  0%
+    +browser-prefixer(transform, translateX(100%))
+    +browser-prefixer(animation-timing-function, ease-in)
+    opacity: 0
+
+  24%
+    opacity: 1
+
+  40%
+    +browser-prefixer(transform, translateX(40%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  65%
+    +browser-prefixer(transform, translateX(15%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  82%
+    +browser-prefixer(transform, translateX(3%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  93%
+    +browser-prefixer(transform, translateX(1%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  25%, 55%, 75%, 87%, 98%
+    +browser-prefixer(transform, translateX(0px))
+    +browser-prefixer(animation-timing-function, ease-out)
+
+  100%
+    +browser-prefixer(transform, translateX(0px))
+    +browser-prefixer(animation-timing-function, ease-out)
+    opacity: 1
+
+
+@keyframes bounce-left
+  0%
+    +browser-prefixer(transform, translateX(100%))
+    +browser-prefixer(animation-timing-function, ease-in)
+    opacity: 0
+
+  24%
+    opacity: 1
+
+  40%
+    +browser-prefixer(transform, translateX(40%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  65%
+    +browser-prefixer(transform, translateX(15%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  82%
+    +browser-prefixer(transform, translateX(3%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  93%
+    +browser-prefixer(transform, translateX(1%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  25%, 55%, 75%, 87%, 98%
+    +browser-prefixer(transform, translateX(0px))
+    +browser-prefixer(animation-timing-function, ease-out)
+
+  100%
+    +browser-prefixer(transform, translateX(0px))
+    +browser-prefixer(animation-timing-function, ease-out)
+    opacity: 1
+
+.bounce-right
+  +browser-prefixer(animation, bounce-right 1.5s both)
+  transition: opacity 0.35s ease
+
+@-webkit-keyframes bounce-right
+  0%
+    +browser-prefixer(transform, translateX(-100%))
+    +browser-prefixer(animation-timing-function, ease-in)
+    opacity: 0
+
+  24%
+    opacity: 1
+
+  40%
+    +browser-prefixer(transform, translateX(-40%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  65%
+    +browser-prefixer(transform, translateX(-15%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  82%
+    +browser-prefixer(transform, translateX(-3%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  93%
+    +browser-prefixer(transform, translateX(-1%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  25%, 55%, 75%, 87%, 98%
+    +browser-prefixer(transform, translateX(0px))
+    +browser-prefixer(animation-timing-function, ease-out)
+
+  100%
+    +browser-prefixer(transform, translateX(0px))
+    +browser-prefixer(animation-timing-function, ease-out)
+    opacity: 1
+
+
+@keyframes bounce-right
+  0%
+    +browser-prefixer(transform, translateX(-100%))
+    +browser-prefixer(animation-timing-function, ease-in)
+    opacity: 0
+
+  24%
+    opacity: 1
+
+  40%
+    +browser-prefixer(transform, translateX(-40%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  65%
+    +browser-prefixer(transform, translateX(-15%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  82%
+    +browser-prefixer(transform, translateX(-3%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  93%
+    +browser-prefixer(transform, translateX(-1%))
+    +browser-prefixer(animation-timing-function, ease-in)
+
+  25%, 55%, 75%, 87%, 98%
+    +browser-prefixer(transform, translateX(0px))
+    +browser-prefixer(animation-timing-function, ease-out)
+
+  100%
+    +browser-prefixer(transform, translateX(0px))
+    +browser-prefixer(animation-timing-function, ease-out)
+    opacity: 1
