@@ -1,0 +1,16 @@
+.subLayout {
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentWrapper {
+  flex-grow: 1;
+  overflow-y: scroll;
+}
+
+.subLayoutContent {
+  width: 800px;
+  margin: 0 auto;
+}

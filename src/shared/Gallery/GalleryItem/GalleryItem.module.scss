@@ -1,7 +1,15 @@
 .galleryItem {
-  border: 1px solid red;
-}
+  float: left;
+  padding: 5px;
+  margin: 10px 10px 20px 10px;
+  border: 1px solid #c9c9c9;
+  
+  .image {
+    max-height: 250px;
+  }
 
-.caption {
-  border: 1px solid green;
+  .caption {
+    font-size: 0.75em;
+    text-align: center;
+  }
 }

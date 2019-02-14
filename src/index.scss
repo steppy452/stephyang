@@ -38,24 +38,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.sub-layout {
-  height: 100vh;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-}
-
-.content-wrapper {
-  flex-grow: 1;
-  overflow-y: scroll;
-}
-
-.sub-layout-content {
-  width: 800px;
-  margin: 0 auto;
-}
-
-.sub-layout-intro {
-  align-self: flex-end;
-}
