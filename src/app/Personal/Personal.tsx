@@ -45,7 +45,7 @@ export class Personal extends Component<{}, {}> {
             </div>
           </div>
 
-          <Intro position="bottom" fadeIn={false} />
+          <Intro fadeIn={false} />
         </div>
       </Fragment>
     );

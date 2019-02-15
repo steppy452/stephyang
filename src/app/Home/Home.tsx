@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+// Absolute paths are not working with TS at the moment:
+// https://github.com/facebook/create-react-app/issues/5692
+// Update when above issue is resolved
 import { Intro } from '../Intro';
 import { Link } from 'react-router-dom';
 import abp from '../../assets/abp.svg';
@@ -8,13 +11,13 @@ import professionalImg from '../../assets/me-professional.png';
 import professionalUnderlay from '../../assets/professional-underlay.png';
 import classNames from 'classnames';
 import css from './Home.module.scss';
-// do this better
 import '../../assets/animations/bounce.scss';
 
 export class Home extends Component<{}, {}> {
   render() {
     return (
       <div className={css.layout}>
+        {/* TODO: Only animate on first load */}
         <div className={classNames(css.profile, css.personal, 'bounce-right')}>
           <Link to="/personal">
             <img src={personalImg} className={css.profilePhoto} />

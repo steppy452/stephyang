@@ -1,4 +1,5 @@
 export const Resume = {
+  profile: 'I\'m a designer-developer who strives to build beautiful, intuitive, quality software that users <i>want</i> to use everyday currently based in Austin, TX.',
   work: [
     {
       company: 'JASK',

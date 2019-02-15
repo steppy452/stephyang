@@ -1,0 +1,21 @@
+.card {
+  padding: 15px 30px;
+  margin-bottom: 20px;
+  background: rgba(0, 0, 0, 0.03);
+  line-height: 1.5;
+
+  .header {
+    .title {
+      font-size: 1.17em;
+      font-weight: 800;
+    }
+
+    .subtitle {
+      font-size: 0.6em;
+    }
+
+    .descriptor {
+      font-style: italic;
+    }
+  }
+}

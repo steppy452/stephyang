@@ -11,22 +11,20 @@ library.add(faEnvelope);
 
 interface IntroProps {
   fadeIn: boolean;
-  position: 'default' | 'bottom';
 }
 
 export class Intro extends Component<IntroProps, {}> {
   static defaultProps = {
-    fadeIn: true,
-    position: 'default'
+    fadeIn: true
   };
 
   render() {
-    const { fadeIn, position } = this.props;
+    const { fadeIn } = this.props;
     const mailToLink = 'mailto:sayhello@stephyang.com';
 
     return (
       <div className={classNames(
-        position === 'default' ? css.intro : css.subLayoutIntro,
+        css.intro,
         fadeIn ? 'fade-in' : ''
       )}>
         <div className={css.introText}>
