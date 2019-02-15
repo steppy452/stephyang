@@ -1,42 +1,40 @@
-@import '../util/browser-prefixer.scss';
-
 .bounce-left {
-  @include browser-prefixer(animation, bounce-left 1.5s both);
+  animation: bounce-left 1.5s both;
   transition: opacity 0.35s ease;
 }
 
 @-webkit-keyframes bounce-left {
   0% {
-    @include browser-prefixer(transform, translateX(100%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(100%);
+    animation-timing-function: ease-in;
     opacity: 0;
   }
   24% {
     opacity: 1;
   }
   40% {
-    @include browser-prefixer(transform, translateX(40%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(40%);
+    animation-timing-function: ease-in;
   }
   65% {
-    @include browser-prefixer(transform, translateX(15%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(15%);
+    animation-timing-function: ease-in;
   }
   82% {
-    @include browser-prefixer(transform, translateX(3%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(3%);
+    animation-timing-function: ease-in;
   }
   93% {
-    @include browser-prefixer(transform, translateX(1%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(1%);
+    animation-timing-function: ease-in;
   }
   25%, 55%, 75%, 87%, 98% {
-    @include browser-prefixer(transform, translateX(0px));
-    @include browser-prefixer(animation-timing-function, ease-out);
+    transform: translateX(0px);
+    animation-timing-function: ease-out;
   }
   100% {
-    @include browser-prefixer(transform, translateX(0px));
-    @include browser-prefixer(animation-timing-function, ease-out);
+    transform: translateX(0px);
+    animation-timing-function: ease-out;
     opacity: 1;
   }
 }
@@ -44,78 +42,78 @@
 
 @keyframes bounce-left {
   0% {
-    @include browser-prefixer(transform, translateX(100%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(100%);
+    animation-timing-function: ease-in;
     opacity: 0;
   }
   24% {
     opacity: 1;
   }
   40% {
-    @include browser-prefixer(transform, translateX(40%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(40%);
+    animation-timing-function: ease-in;
   }
   65% {
-    @include browser-prefixer(transform, translateX(15%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(15%);
+    animation-timing-function: ease-in;
   }
   82% {
-    @include browser-prefixer(transform, translateX(3%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(3%);
+    animation-timing-function: ease-in;
   }
   93% {
-    @include browser-prefixer(transform, translateX(1%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(1%);
+    animation-timing-function: ease-in;
   }
   25%, 55%, 75%, 87%, 98% {
-    @include browser-prefixer(transform, translateX(0px));
-    @include browser-prefixer(animation-timing-function, ease-out);
+    transform: translateX(0px);
+    animation-timing-function: ease-out;
   }
   100% {
-    @include browser-prefixer(transform, translateX(0px));
-    @include browser-prefixer(animation-timing-function, ease-out);
+    transform: translateX(0px);
+    animation-timing-function: ease-out;
     opacity: 1;
   }
 }
 
 
 .bounce-right {
-  @include browser-prefixer(animation, bounce-right 1.5s both);
+  animation: bounce-right 1.5s both;
   transition: opacity 0.35s ease;
 }
 
 @-webkit-keyframes bounce-right {
   0% {
-    @include browser-prefixer(transform, translateX(-100%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-100%);
+    animation-timing-function: ease-in;
     opacity: 0;
   }
   24% {
     opacity: 1;
   }
   40% {
-    @include browser-prefixer(transform, translateX(-40%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-40%);
+    animation-timing-function: ease-in;
   }
   65% {
-    @include browser-prefixer(transform, translateX(-15%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-15%);
+    animation-timing-function: ease-in;
   }
   82% {
-    @include browser-prefixer(transform, translateX(-3%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-3%);
+    animation-timing-function: ease-in;
   }
   93% {
-    @include browser-prefixer(transform, translateX(-1%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-1%);
+    animation-timing-function: ease-in;
   }
   25%, 55%, 75%, 87%, 98% {
-    @include browser-prefixer(transform, translateX(0px));
-    @include browser-prefixer(animation-timing-function, ease-out);
+    transform: translateX(0px);
+    animation-timing-function: ease-out;
   }
   100% {
-    @include browser-prefixer(transform, translateX(0px));
-    @include browser-prefixer(animation-timing-function, ease-out);
+    transform: translateX(0px);
+    animation-timing-function: ease-out;
     opacity: 1;
   }
 }
@@ -123,36 +121,36 @@
 
 @keyframes bounce-right {
   0% {
-    @include browser-prefixer(transform, translateX(-100%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-100%);
+    animation-timing-function: ease-in;
     opacity: 0;
   }
   24% {
     opacity: 1;
   }
   40% {
-    @include browser-prefixer(transform, translateX(-40%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-40%);
+    animation-timing-function: ease-in;
   }
   65% {
-    @include browser-prefixer(transform, translateX(-15%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-15%);
+    animation-timing-function: ease-in;
   }
   82% {
-    @include browser-prefixer(transform, translateX(-3%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-3%);
+    animation-timing-function: ease-in;
   }
   93% {
-    @include browser-prefixer(transform, translateX(-1%));
-    @include browser-prefixer(animation-timing-function, ease-in);
+    transform: translateX(-1%);
+    animation-timing-function: ease-in;
   }
   25%, 55%, 75%, 87%, 98% {
-    @include browser-prefixer(transform, translateX(0px));
-    @include browser-prefixer(animation-timing-function, ease-out);
+    transform: translateX(0px);
+    animation-timing-function: ease-out;
   }
   100% {
-    @include browser-prefixer(transform, translateX(0px));
-    @include browser-prefixer(animation-timing-function, ease-out);
+    transform: translateX(0px);
+    animation-timing-function: ease-out;
     opacity: 1;
   }
 }

@@ -1,7 +1,5 @@
-@import '../util/browser-prefixer.scss';
-
 .fade-in {
-  @include browser-prefixer(animation, fade-in 1.2s ease-in 1s both);
+  animation: fade-in 1.2s ease-in 1s both;
 }
 
 @-webkit-keyframes fade-in {
