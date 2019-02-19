@@ -35,20 +35,34 @@
     }
   }
 
-  .personalBg,
+  .personalBg {
+    right: 33px;
+  }
+
   .personalUnderlay {
-    position: absolute;
-    bottom: 4px;
     right: 0;
+  }
+
+  .professionalBg {
+    left: 30px;
+  }
+
+  .professionalUnderlay {
+    left: 0;
   }
 
   .personalBg,
   .professionalBg {
     z-index: z("background");
+    position: absolute;
+    bottom: 4px;
   }
   
-  .personalUnderlay {
+  .personalUnderlay,
+  .professionalUnderlay {
     z-index: z("underlay");
     opacity: 1;
+    position: absolute;
+    bottom: 4px;
   }
 }

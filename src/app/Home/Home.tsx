@@ -5,6 +5,7 @@ import React, { Component } from 'react';
 import { Intro } from '../Intro';
 import { Link } from 'react-router-dom';
 import abp from '../../assets/abp.svg';
+import desk from '../../assets/desk.svg';
 import personalImg from '../../assets/me-personal.png';
 import personalUnderlay from '../../assets/personal-underlay.png';
 import professionalImg from '../../assets/me-professional.png';
@@ -30,7 +31,8 @@ export class Home extends Component<{}, {}> {
           <Link to="/professional">
             <img src={professionalImg} className={css.profilePhoto} />
           </Link>
-          <img src={professionalUnderlay} className={css.profesionalUnderlay} />
+          <img src={professionalUnderlay} className={css.professionalUnderlay} />
+          <img src={desk} className={classNames(css.professionalBg, 'fade-in')} />
         </div>
 
         <Intro />
